@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categoria</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Livros infantis</a>
+        </li>
+        
+      <img src="" alt="" class="container__imagem">
+    </div>
+   
+  </header>
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Olhe os livros e explore </p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livros em destaque</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide"><img src="https://www.baixelivros.com.br/media/2020/09/quero-ser-eu-mesmo.jpg"
+            alt="Título: Quero Ser Eu Mesmo - Autor: Maynara Abreu - Livro Digital">
+        </div>
+
+        <div class="swiper-slide"><img src="https://www.baixelivros.com.br/media/2024/08/pula-pra-ca-pula-pra-la.jpg"
+            alt="Título:Pula pra cá, pula pra lá! - Autor: Jane Prado - Livro Digital">
+        </div>
+
+        <div class="swiper-slide"><img src="https://www.baixelivros.com.br/media/2024/09/primavera-e-outono.jpg" 
+            alt="Título: Primavera e Outono - Autor: Samanta Flôor - Livro Digital">
+        </div>
+
+        <div class="swiper-slide">
+             <img src="https://image.slidesharecdn.com/asementedaverdade-200717144806/85/A-semente-da-verdade-3-320.jpg" alt="título:A Semente da Verdade - Autor:Patrícia Engel Secco - Livro Digital" /> </div>
+
+        <div class="swiper-slide">
+          <img src="" alt="" /></div>
+
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">O que a achou dos livros?</h3>
+          <h2 class="descrição__titulo-livro">Lembre que você pode comprar os Livros!</h2>
+          <p class="descrição__texto">
+            
+          </p>
+        </div>
+        <img src="img/Angular.svg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+         
+        <a href="#" class="botões__ancora">Saiba mais sobre os livros vendo a descrição</a>
+      </div>
+    </div>
+  </section>
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Autores dos Livros</h2>
+    <div class="swiper">
+        <div class="swiper-slide">Quero Ser Eu Mesmo - Autor: Maynara Abreu"></div>
+
+            <div class="swiper-slide">"Pula pra cá, pula pra lá! - Autor: Jane Prado"></div>
+
+                <div class="swiper-slide">
+                    "Primavera e Outono - Autor: Samanta Flôor "></div>
+
+                    <div class="swiper-slide">
+                        "A Semente da Verdade - Autor:Patrícia Engel Secco"></div>
+
+     
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+        
+          <h3 class="descrição__titulo">Livro do mês</h3>
+          <h2 class="descrição__titulo-livro"></h2>
+          <p class="descrição__texto">Quero Ser Eu Mesmo – Maynara Abreu <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          </p>
+        </div>
+        <!-- 2º coluna -->
+       
+      </div>
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+      
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Livros infantis</a>
+      </li>
+   
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Livros de alta qualidade!
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Gansinho</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+</html>
